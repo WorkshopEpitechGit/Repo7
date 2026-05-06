@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int n = 10;
+    int n = 20;
     int t1 = 0;
     int t2 = 1;
-    int nextTerm;
+    int nextnum;
 
-    printf("Suite de Fibonacci : ");
+    printf(" suite de Fibonacci : ");
     for (int i = 1; i <= n; ++i) {
         printf("%d", t1);
         if (i < n) {
             printf(", ");
         }   
-        nextTerm = t1 + t2;
+        nextnum = t1 + t2;
         t1 = t2;
-        t2 = nextTerm;
+        t2 = nextnum;
     }    
     printf("\n");
     return 0;
