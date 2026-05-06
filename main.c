@@ -9,13 +9,12 @@ int main() {
     printf("Suite de Fibonacci : ");
     for (int i = 1; i <= n; ++i) {
         printf("%d", t1);
-        if (i < n) {
+        if (i < n)
             printf(", ");
-        }   
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
-    }    
+    }
     printf("\n");
     return 0;
 }
